@@ -1,0 +1,7 @@
+ 192.168.1.15 - - [14/Aug/2026:10:00:01 -0600] "GET /index.php HTTP/1.1" 200 4523
+192.168.1.50 - - [14/Aug/2026:10:02:15 -0600] "GET /login.php?user=admin' OR '1'='1 HTTP/1.1" 200 5120
+10.0.0.45 - - [14/Aug/2026:10:05:00 -0600] "GET /images/logo.png HTTP/1.1" 200 12040
+192.168.1.50 - - [14/Aug/2026:10:06:12 -0600] "GET /products.php?id=1 UNION SELECT null,username,password FROM users-- HTTP/1.1" 200 8900
+172.16.0.88 - - [14/Aug/2026:10:08:30 -0600] "GET /../../../../etc/passwd HTTP/1.1" 403 280
+192.168.1.75 - - [14/Aug/2026:10:10:05 -0600] "GET /comment.php?msg=<script>alert('XSS')</script> HTTP/1.1" 200 3400
+10.0.0.45 - - [14/Aug/2026:10:12:44 -0600] "GET /contact.php HTTP/1.1" 200 2310
